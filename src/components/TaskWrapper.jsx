@@ -6,8 +6,6 @@ import { Task } from './Task';
 import { EditForm } from './EditForm';
 
 
-uuidv4();
-
 export const TaskWrapper = () => {
   const [todos, setTodos] = useState([]);
   const [filter, setFilter] = useState('all'); // 'all', 'completed', 'incomplete'
