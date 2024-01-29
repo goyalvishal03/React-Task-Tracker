@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #50623A;
+  background: #1a1a1a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,16 +19,17 @@ body {
 }
 
 h1 {
-  color: #fff;
+  color: #ffcc00;
   margin-bottom: 0.5rem;
   font-size: 1.75rem;
 }
 
 .TodoWrapper {
-  background: #294B29;
+  background: #262626;
   margin-top: 5rem;
   padding: 2rem;
-  border-radius: 5px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 .TodoForm {
@@ -39,7 +40,7 @@ h1 {
 .todo-input {
   outline: none;
   background: none;
-  border: 1px solid #50623A;
+  border: 1px solid #4d4d4d;
   padding: 0.5rem 1rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -48,18 +49,17 @@ h1 {
 }
 
 .todo-input::placeholder {
-  color: #ffffff4d;
+  color: #cccccc;
 }
 
 .todo-btn {
-  background: #50623A;
-  color: #fff;
+  background: #ffcc00;
+  color: #1a1a1a;
   border: none;
   padding: 0.55rem;
   cursor: pointer;
+  border-radius: 5px;
 }
-
-
 
 .fa-trash {
   margin-left: 0.75rem;
@@ -80,7 +80,7 @@ h1 {
 .delete-icon {
   cursor: pointer;
 }
- 
+
 .task-info {
   display: flex;
   align-items: center;
@@ -88,7 +88,7 @@ h1 {
 
 .date-added {
   margin-left: 1rem;
-  color: #ffffff4d;
+  color: #cccccc;
   font-size: 0.75rem;
 }
 
@@ -98,11 +98,9 @@ h1 {
 }
 
 .complete-button {
-  background: #fff;
-  color: #50623A;
-  border: #1A1A40;
-  border-radius: inherit;
-  border-color: #1A1A40;
+  background: #4d4d4d;
+  color: #fff;
+  border: none;
   padding: 0.5rem;
   margin-right: 0.5rem;
   cursor: pointer;
@@ -113,22 +111,21 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #50623A;
+  background: #333333;
   color: #fff;
   padding: 0.75rem 1rem;
-  border-radius: 5px;
+  border-radius: 8px;
   margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .filter-buttons {
   gap: 1rem;
   margin-bottom: 1rem;
-
-  
 }
 
 .filter-buttons button {
-  background: #50623A;
+  background: #333333;
   color: #fff;
   border: none;
   padding: 0.5rem 1rem;
@@ -139,5 +136,5 @@ h1 {
 }
 
 .filter-buttons button:hover {
-  background: #294B29;
+  background: #262626;
 }
